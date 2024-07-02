@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"leetcodeSolutions/arraysKata"
+)
 
 func main() {
 	fmt.Println("Leetcode Solution")
+	arraysKata.PracticeArray()
 }
