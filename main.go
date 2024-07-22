@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Leetcode Solution")
+	fmt.Println("Learning Go YAY :)")
 	arraysKata.PracticeArray()
 }

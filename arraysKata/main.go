@@ -17,6 +17,14 @@ func GetConcatenation(nums []int) []int {
 }
 
 func PracticeArray() {
-	prices := [4]float64{10.99, 9.99, 45.99, 20.0}
-	fmt.Println(prices)
+	array1 := []int{1, 2, 3}
+	fmt.Println(array1)
+
+	// using make to create slices
+	slice1 := array1[:]
+	fmt.Println(slice1)
+
+	// using copy to append 2 slices together
+	result := copy(slice1, array1[:])
+	fmt.Println(result)
 }
