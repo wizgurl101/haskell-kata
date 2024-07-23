@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"leetcodeSolutions/arraysKata"
+	pointersreview "learningGo/pointersReview"
 )
 
 func main() {
-	fmt.Println("Leetcode Solution")
-	arraysKata.PracticeArray()
+	fmt.Println("Learning Go YAY :)")
+	pointersreview.PracticePointer()
 }
