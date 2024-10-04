@@ -8,6 +8,14 @@ Repo containing my solutions to leetcode. Goal is to learn Go (the programming l
 go run .
 ```
 
+### How to run a unit test
+
+cd into a folder and use the following command:
+
+```
+go run .
+```
+
 ### How to run all unit tests
 
 ```
