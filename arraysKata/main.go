@@ -1,6 +1,9 @@
 package arraysKata
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 /*
 Given an integer array nums of length n, you want to create an array ans of
@@ -32,4 +35,19 @@ func PracticeArray() {
 	// using copy to append 2 slices together
 	result := copy(slice1, array1[:])
 	fmt.Println(result)
+}
+
+// leetcode 2942 Find Words Containing Characters
+func FindsWordsCharacter(words []string, x string) []int {
+	indexes := []int{}
+
+	for i, word := range words {
+		doesWordContainX := strings.Contains(word, x)
+
+		if doesWordContainX {
+			indexes = append(indexes, i)
+		}
+	}
+
+	return indexes
 }
