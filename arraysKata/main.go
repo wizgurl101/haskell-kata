@@ -12,13 +12,13 @@ Return the array ans.
 */
 
 func GetConcatenation(nums []int) []int {
-	var newSlice = []int
+	numSlice := nums[:]
 
-	for i := 0; i <= 2; i++ {
-		newSlice = append(newSlice, nums...)
+	for _, i := range nums {
+		numSlice = append(numSlice, i)
 	}
 
-	return newSlice
+	return numSlice
 }
 
 func PracticeArray() {
