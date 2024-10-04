@@ -1,5 +1,7 @@
 # Learning Go
 
+Repo containing my solutions to leetcode. Goal is to learn Go (the programming language, not the boardgame \|>.<|/) :D
+
 ### How to run a go program:
 
 ```
