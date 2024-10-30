@@ -13,7 +13,7 @@ go run .
 cd into a folder and use the following command:
 
 ```
-go run .
+go test .
 ```
 
 ### How to run all unit tests
