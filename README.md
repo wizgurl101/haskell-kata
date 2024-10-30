@@ -1,9 +1,19 @@
 # Learning Go
 
+Repo containing my solutions to leetcode. Goal is to learn Go (the programming language, not the boardgame \|>.<|/) :D
+
 ### How to run a go program:
 
 ```
 go run .
+```
+
+### How to run a unit test
+
+cd into a folder and use the following command:
+
+```
+go test .
 ```
 
 ### How to run all unit tests
